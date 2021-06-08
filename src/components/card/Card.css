@@ -1,0 +1,42 @@
+.card{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+    border-radius: 12px;
+}
+
+.card__text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.94px;
+    color: #4E5150;
+    margin-bottom: 3px;
+}
+
+.card__title{
+    color: #BDBDBD;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+}
+
+@media(max-width: 475px){
+    .card{
+        width: 78px;
+        height: 52px;
+    }
+
+    .card__text{
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+
+    .card__title{
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+}
